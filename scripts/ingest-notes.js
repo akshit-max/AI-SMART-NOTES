@@ -10,15 +10,23 @@ async function ingestNotes() {
   console.log("🔄 Fetching notes from Prisma...");
 
   // 🔒 LIMIT 1: max notes
+  // const notes = await prisma.note.findMany({
+  //   take: 50, // 🔒 FREE TIER SAFETY
+  //   select: {
+  //     id: true,
+  //     title: true,
+  //     content: true,
+  //     userId: true,
+  //   },
+  // });
+
   const notes = await prisma.note.findMany({
-    take: 50, // 🔒 FREE TIER SAFETY
-    select: {
-      id: true,
-      title: true,
-      content: true,
-      userId: true,
-    },
-  });
+  where: {
+    isEmbedded: false,
+  },
+  take: 50,
+});
+
 
   if (!notes.length) {
     console.log("⚠️ No notes found");
@@ -27,7 +35,8 @@ async function ingestNotes() {
 
   // 🔒 Embeddings (cheap + fast)
   const embeddings = new HuggingFaceInferenceEmbeddings({
-    apiKey: process.env.HF_API_KEY!,
+    apiKey: process.env.HF_API_KEY,
+    // apiKey: process.env.HF_API_KEY!,
     model: "sentence-transformers/all-MiniLM-L6-v2",
   });
 
@@ -59,8 +68,12 @@ ${note.content}
       documents.push({
         pageContent: chunk.pageContent,
         metadata: {
+          // noteId: note.id,
+          // userId: note.userId,
           noteId: note.id,
           userId: note.userId,
+          title: note.title,
+          type: "note",
         },
       });
     }
@@ -68,11 +81,43 @@ ${note.content}
 
   console.log(`📦 Embedding ${documents.length} chunks`);
 
-  await QdrantVectorStore.fromDocuments(documents, embeddings, {
-    url: process.env.QDRANT_URL!,
-    apiKey: process.env.QDRANT_API_KEY!,
-    collectionName: "notes-rag",
-  });
+  // await QdrantVectorStore.fromDocuments(documents, embeddings, {
+  //   url: process.env.QDRANT_URL!,
+  //   apiKey: process.env.QDRANT_API_KEY!,
+  //   collectionName: "notes-rag",
+  // });
+
+  const vectorStore = await QdrantVectorStore.fromExistingCollection(
+    embeddings,
+    {
+      url: process.env.QDRANT_URL,
+      apiKey: process.env.QDRANT_API_KEY,
+      // url: process.env.QDRANT_URL!,
+      // apiKey: process.env.QDRANT_API_KEY!,
+      collectionName: "notes-rag",
+    },
+  );
+
+  
+
+  await vectorStore.addDocuments(documents);
+
+
+
+
+
+
+
+  await prisma.note.updateMany({
+  where: {
+    id: { in: notes.map(n => n.id) },
+  },
+  data: {
+    isEmbedded: true,
+  },
+});
+
+
 
   console.log("✅ Prisma notes embedded into Qdrant (SAFE MODE)");
 }

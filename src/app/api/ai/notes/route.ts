@@ -24,6 +24,7 @@ export async function POST(req: Request) {
     },
     body: JSON.stringify({
       question: query, // ✅ MUST be "question"
+      userId,
     }),
   });
 
