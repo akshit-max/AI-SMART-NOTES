@@ -17,7 +17,8 @@ export async function POST(req: Request) {
   }
 
   // 🔁 Forward ONLY the question to RAG
-  const ragResponse = await fetch(process.env.RAG_API_URL!, {
+  // const ragResponse = await fetch(process.env.RAG_API_URL!, {
+  const ragResponse = await fetch(`${process.env.RAG_API_URL}/chat`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
