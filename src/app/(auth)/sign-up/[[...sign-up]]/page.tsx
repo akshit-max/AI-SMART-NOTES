@@ -1,18 +1,11 @@
-// import {SignUp } from "@clerk/nextjs"
-
-// export default function Page(){
-//     return <main className="flex h-screen items-center justify-center p-3"> 
-//      <SignUp/>
-//     </main>
-// }
-
 "use client";
 
 import { SignUp } from "@clerk/nextjs";
 
 export default function Page() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden
+    <div
+      className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden
       bg-[radial-gradient(circle_at_20%_30%,#fde68a_0%,transparent_40%),radial-gradient(circle_at_80%_20%,#f9a8d4_0%,transparent_40%),radial-gradient(circle_at_80%_80%,#c4b5fd_0%,transparent_40%),linear-gradient(to_br,#ffffff,#fff7ed,#faf5ff)]"
     >
       <SignUp
