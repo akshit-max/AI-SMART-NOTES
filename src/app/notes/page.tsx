@@ -5,7 +5,7 @@ import { NotesHeader } from "./notes-header";
 import { NotesForm } from "./notes-form";
 import { NotesAssistant } from "./notes-assistant";
 import { NotesValues } from "@/lib/validation/notes";
-import { Navbar } from "../navbar/page";
+import Navbar from "../navbar/page";
 
 export default function NotesPage() {
   const [notesData, setNotesData] = useState<NotesValues>({
