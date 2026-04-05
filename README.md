@@ -17,19 +17,26 @@ Built using a **Retrieval-Augmented Generation (RAG)** pipeline, it combines vec
 
 
 
+
 ## 📸 Screenshots
 
 ### 🏠 Landing Page
-![Landing Page](https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef)
+<img width="1919" height="912" alt="Landing Page" src="https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef" />
+
+---
 
 ### 🔐 Authentication
-![Authentication](https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf)
+<img width="1919" height="908" alt="Authentication" src="https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf" />
+
+---
 
 ### 📊 Dashboard
-![Dashboard](https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb)
+<img width="1919" height="909" alt="Dashboard" src="https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb" />
+
+---
 
 ### 🤖 AI Chatbot
-![AI Chatbot](https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a)
+<img width="1919" height="914" alt="AI Chatbot" src="https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a" />
 ---
 
 
