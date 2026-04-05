@@ -1,11 +1,20 @@
 # 🧠 AI Smart Notes
 ### RAG-Powered Knowledge Assistant
 
-🌐 **Live Demo:** _Add Link_  
+🌐 **Live Demo:** https://mind-stack-ai.vercel.app/ 
+
 🎥 **Demo Video:** _Add Link_
 
 ---
 
+
+## 📸 Screenshots
+<img width="1919" height="912" alt="Screenshot 2026-04-05 234823" src="https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef" />
+<img width="1919" height="908" alt="Screenshot 2026-04-05 234852" src="https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf" />
+<img width="1919" height="909" alt="Screenshot 2026-04-05 234926" src="https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb" />
+<img width="1919" height="914" alt="Screenshot 2026-03-28 213340" src="https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a" />
+
+---
 ## 📌 Overview
 
 AI Smart Notes is a full-stack AI application that lets users store personal knowledge and query it using natural language.
