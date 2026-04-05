@@ -21,22 +21,26 @@ Built using a **Retrieval-Augmented Generation (RAG)** pipeline, it combines vec
 ## 📸 Screenshots
 
 ### 🏠 Landing Page
-<img width="1919" height="912" alt="Landing Page" src="https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef" />
+
+<img width="1919" height="912" alt="Screenshot 2026-04-05 234823" src="https://github.com/user-attachments/assets/35d4ba0d-31c2-4e6c-9d23-208546b37561" />
 
 ---
 
 ### 🔐 Authentication
-<img width="1919" height="908" alt="Authentication" src="https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf" />
+
+<img width="1919" height="908" alt="Screenshot 2026-04-05 234852" src="https://github.com/user-attachments/assets/b924ff95-a150-4e7c-affb-cb4361449229" />
 
 ---
 
 ### 📊 Dashboard
-<img width="1919" height="909" alt="Dashboard" src="https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb" />
+
+<img width="1919" height="909" alt="Screenshot 2026-04-05 234926" src="https://github.com/user-attachments/assets/49056fa8-ffd0-4b15-b5f6-39fc5736a29e" />
 
 ---
 
 ### 🤖 AI Chatbot
-<img width="1919" height="914" alt="AI Chatbot" src="https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a" />
+<img width="1919" height="914" alt="Screenshot 2026-03-28 213340" src="https://github.com/user-attachments/assets/1e06175a-3b8a-4b1d-9fe2-65f3cd18c087" />
+
 ---
 
 
