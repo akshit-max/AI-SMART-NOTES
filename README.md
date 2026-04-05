@@ -17,10 +17,14 @@ Built using a **Retrieval-Augmented Generation (RAG)** pipeline, it combines vec
 
 
 ## 📸 Screenshots
-<img width="1919" height="912" alt="Screenshot 2026-04-05 234823" src="https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef" />
-<img width="1919" height="908" alt="Screenshot 2026-04-05 234852" src="https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf" />
-<img width="1919" height="909" alt="Screenshot 2026-04-05 234926" src="https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb" />
-<img width="1919" height="914" alt="Screenshot 2026-03-28 213340" src="https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a" />
+
+![Screenshot 1](https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef)
+
+![Screenshot 2](https://github.com/user-attachments/assets/68aee5e2-bfd6-4f08-bc05-c2711d5a3daf)
+
+![Screenshot 3](https://github.com/user-attachments/assets/ca569529-e34a-4e9e-ae62-27895aa72dfb)
+
+![Screenshot 4](https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a)
 
 ---
 
