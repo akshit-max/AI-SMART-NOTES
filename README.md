@@ -7,6 +7,14 @@
 
 ---
 
+## 📌 Overview
+
+AI Smart Notes is a full-stack AI application that lets users store personal knowledge and query it using natural language.
+
+Built using a **Retrieval-Augmented Generation (RAG)** pipeline, it combines vector search and LLMs to simulate a personal AI memory system.
+
+---
+
 
 ## 📸 Screenshots
 <img width="1919" height="912" alt="Screenshot 2026-04-05 234823" src="https://github.com/user-attachments/assets/2e904842-90d0-4554-8564-1739ed1f8bef" />
@@ -15,13 +23,7 @@
 <img width="1919" height="914" alt="Screenshot 2026-03-28 213340" src="https://github.com/user-attachments/assets/ed8b5f1d-c105-4a28-84fb-806d83a23c9a" />
 
 ---
-## 📌 Overview
 
-AI Smart Notes is a full-stack AI application that lets users store personal knowledge and query it using natural language.
-
-Built using a **Retrieval-Augmented Generation (RAG)** pipeline, it combines vector search and LLMs to simulate a personal AI memory system.
-
----
 
 ## 🚀 Features
 
